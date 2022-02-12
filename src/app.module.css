@@ -1,0 +1,101 @@
+.header{
+    margin: 0px;
+    padding: 20px 0px;
+    text-align: center;
+    background: chocolate;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.headerText{
+    margin: 0;
+    color: floralwhite;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.inputArea{
+    height: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:20px auto;
+    width:80%;
+    font-size:1rem;
+    background-color: antiquewhite;
+    padding: 1rem 1rem;
+    border-radius: 50px;
+    
+}
+.inputBox{
+    border: 0px;
+    width:75%;
+    outline: 0px;
+    background-color: antiquewhite;
+    font-size: 1.5rem;
+}
+.submitInputButton{
+    border: 0;
+    background-color: transparent; 
+    width:20%;
+    cursor: pointer;
+}
+.spinner {
+    height: 10vh;  
+    position: relative;
+}
+.spinner::before {
+        border: solid 3px #eee;
+        border-bottom-color: #EF6565;
+        border-radius: 50%;
+        content: "";
+        height: 40px;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        width: 40px;
+}
+.ResultBox{
+  width:90%;
+  margin:2rem auto;
+  
+}
+.resultInfo{
+    color: darkcyan;
+}
+audio {
+    width: 90%;
+}
+.meaningWordDefinitionSynonyms{
+
+}
+.meaningWordDefinitionAntonyms{
+
+}
+.meaningWordDefinition{
+
+}
+.meaningWordDefinitionExample{
+
+}
+.meaningWordPartOfSpeech{
+
+}
+.meaningWord{
+    font-size: 2rem;
+    color: brown;
+    font-style: italic;
+    font-weight: 500;
+}
+.meaningWordOrigin{
+
+}
+.meaningWordwordDefinition{
+    background: antiquewhite;
+    padding: 1rem;
+    margin: 20px 0px;
+}
+b {
+    font-size: 1.1rem;
+    color: darkcyan;
+}
